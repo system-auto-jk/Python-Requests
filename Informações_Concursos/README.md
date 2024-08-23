@@ -1,13 +1,17 @@
-# Buscador de Concursos Públicos
+# Python-Requests: Informações sobre Concursos Públicos
 
-Este projeto em Python permite a busca e visualização de informações sobre concursos públicos em diferentes estados do Brasil. Utilizando as bibliotecas `requests` e `BeautifulSoup`, o programa extrai dados de um site específico e exibe os concursos disponíveis em um formato amigável para o usuário.
+Este projeto em Python foi desenvolvido para buscar e exibir informações sobre concursos públicos em diferentes estados do Brasil. Utilizando as bibliotecas `requests` e `BeautifulSoup`, o programa acessa um site específico e extrai dados de interesse.
+
+## Estrutura do Projeto
+
+- **[Informações_Concursos](https://github.com/system-auto-jk/Python-Requests/tree/main/Informa%C3%A7%C3%B5es_Concursos)**: Diretório que contém o código principal do projeto, responsável pela coleta e exibição das informações sobre concursos públicos.
 
 ## Funcionalidades
 
-- **Buscar Concurso por Estado**: Permite ao usuário buscar um concurso específico em um estado escolhido.
-- **Todos os Concursos por Estado**: Exibe todos os concursos públicos abertos em um estado.
-- **Concursos de Prefeituras**: Mostra as últimas informações sobre concursos municipais.
-- **Destaques por Estado**: Exibe os concursos em destaque em um estado selecionado.
+- **Buscar Concurso por Estado**: Permite buscar por um concurso específico em um estado escolhido.
+- **Todos os Concursos por Estado**: Lista todos os concursos públicos abertos em um estado.
+- **Concursos de Prefeituras**: Exibe as últimas informações sobre concursos municipais.
+- **Destaques por Estado**: Mostra os concursos em destaque em um estado selecionado.
 
 ## Pré-requisitos
 
@@ -23,29 +27,21 @@ pip install beautifulsoup4
 1. **Clone o Repositório**:
 
    ```bash
-   git clone https://github.com/SeuUsuario/NomeDoRepositorio.git
-   cd NomeDoRepositorio
+   git clone https://github.com/system-auto-jk/Python-Requests.git
+   cd Python-Requests/Informações_Concursos
    ```
 
 2. **Execute o Programa**:
 
-   Execute o script Python:
+   Dentro do diretório `Informações_Concursos`, execute o script Python:
 
    ```bash
-   python nome_do_arquivo.py
+   python ConcursoBrasil.py
    ```
 
 3. **Navegue pelas Opções**:
 
-   Ao iniciar, o programa exibe um menu com as seguintes opções:
-
-   - `[1] BUSCAR CONCURSO POR ESTADO`
-   - `[2] TODOS OS CONCURSOS POR ESTADO`
-   - `[3] ULTIMAS INFORMAÇÕES SOBRE CONCURSOS`
-   - `[4] DESTAQUES POR ESTADO`
-   - `[5] SAIR`
-
-   Escolha a opção desejada e siga as instruções na tela.
+   O programa apresenta um menu interativo onde você pode escolher as opções disponíveis para a busca de concursos.
 
 ## Exemplo de Uso
 
@@ -66,7 +62,7 @@ pip install beautifulsoup4
 
 ## Contribuindo
 
-Se você deseja contribuir com este projeto, sinta-se à vontade para enviar pull requests ou relatar problemas.
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou relatar problemas.
 
 ## Licença
 
